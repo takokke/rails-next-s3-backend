@@ -3,6 +3,7 @@
 現在開発しているアプリに画像アップロード機能を加えたい
 バックエンドとフロントエンドを分けるとRailsの単体の時より、少し複雑になる
 このリポジトリは、練習用のバックエンドリポジトリである
+フロントエンドは[こちら](https://github.com/takokke/rails-next-s3-frontend)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
