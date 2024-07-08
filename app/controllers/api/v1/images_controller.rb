@@ -21,7 +21,8 @@ class Api::V1::ImagesController < ApplicationController
     def destroy
         image = Image.find(params[:id])
         image.destroy!
-        render json: image
+        render json: {message: "Success delete Image!"}, status: :ok
+        
     end
 
     private

@@ -5,25 +5,9 @@
 このリポジトリは、練習用のバックエンドリポジトリである
 フロントエンドは[こちら](https://github.com/takokke/rails-next-s3-frontend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 手順
 
-Things you may want to cover:
+### 1 モデルにURLを渡すメソッドを定義する
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 2  Rails.application.routes.default_url_optionsでhostとportを指定する
+環境ごとに変えるのがポイント
